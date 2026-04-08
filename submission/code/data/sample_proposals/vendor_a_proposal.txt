@@ -1,0 +1,43 @@
+VENDOR PROPOSAL — TechSolutions India Pvt Ltd
+Project: Cloud Infrastructure Setup & Support
+Date: March 2026
+
+EXECUTIVE SUMMARY
+TechSolutions India proposes to deliver complete cloud infrastructure migration
+and 24x7 support services for Acme Corp.
+
+PRICING
+- One-time Setup Fee: INR 8,50,000
+- Monthly Managed Services: INR 1,20,000/month
+- Annual Contract Value: INR 22,90,000
+- Payment Terms: 40% advance, 30% at midpoint, 30% on completion
+- Price Lock: 18 months, after which 15% annual escalation clause applies
+
+TIMELINE
+- Project Kickoff: Week 1
+- Infrastructure Setup: Weeks 1-6
+- Testing & UAT: Weeks 7-9
+- Go-Live: Week 10
+- NOTE: Timeline subject to change based on client responsiveness
+
+SLA COMMITMENTS
+- Uptime Guarantee: 99.5%
+- Critical Issue Response: 4 hours
+- Standard Issue Response: 48 hours
+- Penalty for SLA breach: 2% credit per month, capped at 10% of monthly fee
+
+SUPPORT
+- Business hours support: 9AM-6PM IST Monday to Friday
+- Weekend support: Additional charges apply (not specified in this proposal)
+
+TEAM
+- 1 Project Manager
+- 2 Senior Cloud Engineers
+- 1 DevOps Engineer (shared resource)
+
+TERMS & CONDITIONS
+- All disputes subject to arbitration in Bangalore
+- Client responsible for all third-party software licenses
+- TechSolutions not liable for data loss during migration
+- Contract auto-renews unless 90-day notice given
+- Early termination fee: 6 months of monthly charges

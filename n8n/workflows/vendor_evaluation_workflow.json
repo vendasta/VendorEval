@@ -1,0 +1,61 @@
+{
+  "name": "Vendor Evaluation Automation",
+  "nodes": [
+    {
+      "name": "Webhook - New Evaluation",
+      "type": "n8n-nodes-base.webhook",
+      "parameters": { "path": "vendor-eval", "method": "POST" },
+      "position": [240, 300]
+    },
+    {
+      "name": "Extract All Vendor Data",
+      "type": "n8n-nodes-base.httpRequest",
+      "parameters": {
+        "url": "http://backend:8080/api/evaluations/{{$json.evaluation_id}}/analyze",
+        "method": "POST",
+        "headers": { "Authorization": "Bearer {{$json.token}}" }
+      },
+      "position": [460, 300]
+    },
+    {
+      "name": "Check for Critical Red Flags",
+      "type": "n8n-nodes-base.if",
+      "parameters": {
+        "conditions": {
+          "number": [{ "value1": "={{$json.critical_flags}}", "operation": "largerEqual", "value2": 1 }]
+        }
+      },
+      "position": [680, 300]
+    },
+    {
+      "name": "Send Critical Flag Alert Email",
+      "type": "n8n-nodes-base.gmail",
+      "parameters": {
+        "to": "{{$json.user_email}}",
+        "subject": "Critical Issues Found in Vendor Proposals",
+        "message": "VendorEval AI found {{$json.critical_flags}} critical red flags. Review before proceeding: http://localhost:5173/evaluation/{{$json.evaluation_id}}"
+      },
+      "position": [900, 200]
+    },
+    {
+      "name": "Send Completion Notification",
+      "type": "n8n-nodes-base.gmail",
+      "parameters": {
+        "to": "{{$json.user_email}}",
+        "subject": "Vendor Evaluation Complete — {{$json.winner}} Recommended",
+        "message": "Your evaluation is ready. Recommended vendor: {{$json.winner}} ({{$json.confidence}}% confidence). View full report: http://localhost:5173/evaluation/{{$json.evaluation_id}}"
+      },
+      "position": [900, 400]
+    }
+  ],
+  "connections": {
+    "Webhook - New Evaluation": { "main": [[{ "node": "Extract All Vendor Data" }]] },
+    "Extract All Vendor Data": { "main": [[{ "node": "Check for Critical Red Flags" }]] },
+    "Check for Critical Red Flags": {
+      "main": [
+        [{ "node": "Send Critical Flag Alert Email" }],
+        [{ "node": "Send Completion Notification" }]
+      ]
+    }
+  }
+}

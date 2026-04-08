@@ -1,0 +1,42 @@
+# Environment & secrets
+.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build artifacts
+backend/server
+frontend/dist/
+build/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large media files
+*.mp4
+*.m4a
+*.mpeg
+*.wav
+*.mp3
+
+# PDF docs (keep code, not binary docs)
+*.pdf
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temp
+tmp/
+.tmp/

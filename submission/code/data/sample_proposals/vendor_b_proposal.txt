@@ -1,0 +1,44 @@
+VENDOR PROPOSAL — CloudForce Systems
+Project: Cloud Infrastructure and DevOps Services
+Date: March 2026
+
+OVERVIEW
+CloudForce Systems offers enterprise-grade cloud infrastructure services
+with guaranteed delivery and transparent pricing.
+
+PRICING
+- Setup & Migration: INR 6,80,000
+- Monthly Support Retainer: INR 95,000/month
+- Year 1 Total: INR 18,20,000
+- Payment Terms: 25% advance, balance monthly
+- No hidden escalation clauses — fixed pricing for 24 months
+- All third-party licenses included in the quote
+
+TIMELINE
+- Week 1-2: Discovery and planning
+- Week 3-7: Infrastructure build
+- Week 8-9: Testing
+- Week 10: Go-live
+- Timeline guarantee: penalty of INR 50,000 per week delay
+
+SLA
+- Uptime: 99.9%
+- P1 Response: 1 hour, Resolution: 4 hours
+- P2 Response: 2 hours, Resolution: 24 hours
+- SLA penalty: 5% credit, no cap
+
+SUPPORT
+- 24x7 support included
+- Dedicated Slack channel for client
+- Monthly review calls
+
+TEAM
+- Dedicated Project Manager
+- 3 Cloud Engineers (dedicated, not shared)
+- 1 Security Specialist
+
+TERMS
+- 30-day notice for termination after year 1
+- No early termination fee in first 6 months
+- Data migration fully covered under contract
+- Liability cap: 3x annual contract value

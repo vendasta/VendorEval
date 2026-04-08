@@ -1,0 +1,202 @@
+[
+  {
+    "label": "Login page",
+    "startFrame": 1,
+    "endFrame": 16,
+    "startSec": 0,
+    "endSec": 4,
+    "duration": 4
+  },
+  {
+    "label": "Dashboard overview",
+    "startFrame": 17,
+    "endFrame": 36,
+    "startSec": 4,
+    "endSec": 9,
+    "duration": 5
+  },
+  {
+    "label": "Step 1 empty",
+    "startFrame": 37,
+    "endFrame": 48,
+    "startSec": 9,
+    "endSec": 12,
+    "duration": 3
+  },
+  {
+    "label": "Title filled",
+    "startFrame": 49,
+    "endFrame": 60,
+    "startSec": 12,
+    "endSec": 15,
+    "duration": 3
+  },
+  {
+    "label": "Requirements filled",
+    "startFrame": 61,
+    "endFrame": 80,
+    "startSec": 15,
+    "endSec": 20,
+    "duration": 5
+  },
+  {
+    "label": "Step 2 empty",
+    "startFrame": 81,
+    "endFrame": 92,
+    "startSec": 20,
+    "endSec": 23,
+    "duration": 3
+  },
+  {
+    "label": "Vendor 1 filled",
+    "startFrame": 93,
+    "endFrame": 108,
+    "startSec": 23,
+    "endSec": 27,
+    "duration": 4
+  },
+  {
+    "label": "Vendor 2 filled",
+    "startFrame": 109,
+    "endFrame": 124,
+    "startSec": 27,
+    "endSec": 31,
+    "duration": 4
+  },
+  {
+    "label": "Review step",
+    "startFrame": 125,
+    "endFrame": 144,
+    "startSec": 31,
+    "endSec": 36,
+    "duration": 5
+  },
+  {
+    "label": "Analysis overlay",
+    "startFrame": 145,
+    "endFrame": 160,
+    "startSec": 36,
+    "endSec": 40,
+    "duration": 4
+  },
+  {
+    "label": "Winner banner",
+    "startFrame": 161,
+    "endFrame": 184,
+    "startSec": 40,
+    "endSec": 46,
+    "duration": 6
+  },
+  {
+    "label": "Score cards + dimension bars",
+    "startFrame": 185,
+    "endFrame": 204,
+    "startSec": 46,
+    "endSec": 51,
+    "duration": 5
+  },
+  {
+    "label": "Radar chart",
+    "startFrame": 205,
+    "endFrame": 224,
+    "startSec": 51,
+    "endSec": 56,
+    "duration": 5
+  },
+  {
+    "label": "Recommendation reasoning",
+    "startFrame": 225,
+    "endFrame": 240,
+    "startSec": 56,
+    "endSec": 60,
+    "duration": 4
+  },
+  {
+    "label": "Negotiation tips + risks",
+    "startFrame": 241,
+    "endFrame": 256,
+    "startSec": 60,
+    "endSec": 64,
+    "duration": 4
+  },
+  {
+    "label": "Comparison table",
+    "startFrame": 257,
+    "endFrame": 280,
+    "startSec": 64,
+    "endSec": 70,
+    "duration": 6
+  },
+  {
+    "label": "Comparison bar chart",
+    "startFrame": 281,
+    "endFrame": 292,
+    "startSec": 70,
+    "endSec": 73,
+    "duration": 3
+  },
+  {
+    "label": "Red flags summary",
+    "startFrame": 293,
+    "endFrame": 312,
+    "startSec": 73,
+    "endSec": 78,
+    "duration": 5
+  },
+  {
+    "label": "Flags expanded",
+    "startFrame": 313,
+    "endFrame": 332,
+    "startSec": 78,
+    "endSec": 83,
+    "duration": 5
+  },
+  {
+    "label": "Chat initial",
+    "startFrame": 333,
+    "endFrame": 348,
+    "startSec": 83,
+    "endSec": 87,
+    "duration": 4
+  },
+  {
+    "label": "Chat question typed",
+    "startFrame": 349,
+    "endFrame": 360,
+    "startSec": 87,
+    "endSec": 90,
+    "duration": 3
+  },
+  {
+    "label": "Chat response visible",
+    "startFrame": 361,
+    "endFrame": 388,
+    "startSec": 90,
+    "endSec": 97,
+    "duration": 7
+  },
+  {
+    "label": "Report header",
+    "startFrame": 389,
+    "endFrame": 408,
+    "startSec": 97,
+    "endSec": 102,
+    "duration": 5
+  },
+  {
+    "label": "Report vendor details",
+    "startFrame": 409,
+    "endFrame": 424,
+    "startSec": 102,
+    "endSec": 106,
+    "duration": 4
+  },
+  {
+    "label": "Final frame",
+    "startFrame": 425,
+    "endFrame": 436,
+    "startSec": 106,
+    "endSec": 109,
+    "duration": 3
+  }
+]

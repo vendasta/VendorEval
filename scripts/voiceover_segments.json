@@ -1,0 +1,158 @@
+[
+  {
+    "id": "s01_login",
+    "start": 0,
+    "duration": 4,
+    "text": "Welcome to VendorEval AI. Let's walk through a live evaluation of two IT security vendors. We'll start by logging in with the demo account."
+  },
+  {
+    "id": "s02_dashboard",
+    "start": 4,
+    "duration": 4,
+    "text": "This is the dashboard. It shows all your evaluations at a glance — with stats for completed, in progress, and failed evaluations. Let's create a new one."
+  },
+  {
+    "id": "s03_step1",
+    "start": 8,
+    "duration": 3,
+    "text": "Step one — define your requirements. We'll enter the evaluation title and paste the RFP requirements for an enterprise IT security and SOC engagement."
+  },
+  {
+    "id": "s04_title",
+    "start": 11,
+    "duration": 2,
+    "text": "We've entered the evaluation title."
+  },
+  {
+    "id": "s05_requirements",
+    "start": 13,
+    "duration": 4,
+    "text": "The requirements document covers must-haves like twenty-four seven SOC monitoring, SIEM, endpoint protection for twenty-five hundred endpoints, and a budget of one point five crore."
+  },
+  {
+    "id": "s06_step2",
+    "start": 17,
+    "duration": 3,
+    "text": "Step two — add vendor proposals. You can upload PDF, DOCX, or TXT files, or paste the proposal text directly."
+  },
+  {
+    "id": "s07_vendor1",
+    "start": 20,
+    "duration": 3,
+    "text": "Vendor one is CyberShield India — offering a full twenty-four seven dedicated SOC with CrowdStrike EDR and Microsoft Sentinel SIEM."
+  },
+  {
+    "id": "s08_vendor2",
+    "start": 23,
+    "duration": 3,
+    "text": "Vendor two is SecureNet Solutions — offering a sixteen by five hybrid SOC model with SentinelOne and Splunk."
+  },
+  {
+    "id": "s09_review",
+    "start": 26,
+    "duration": 4,
+    "text": "Step three — review. We can see both vendors are loaded and ready. Let's start the AI analysis."
+  },
+  {
+    "id": "s10_analyzing",
+    "start": 30,
+    "duration": 3,
+    "text": "The AI is now extracting data, scoring each vendor, detecting red flags, and generating the recommendation."
+  },
+  {
+    "id": "s11_winner",
+    "start": 33,
+    "duration": 5,
+    "text": "Here are the results. CyberShield India is the recommended vendor with a high overall score and strong confidence rating. The banner shows the winner at a glance."
+  },
+  {
+    "id": "s12_scores",
+    "start": 38,
+    "duration": 4,
+    "text": "The score cards show each vendor's overall score with a visual gauge, along with dimension-level bars for cost, timeline, quality, risk, and SLA."
+  },
+  {
+    "id": "s13_radar",
+    "start": 42,
+    "duration": 4,
+    "text": "The radar chart provides a multi-dimensional comparison. Notice how CyberShield dominates on quality, SLA, and risk — while SecureNet trails significantly."
+  },
+  {
+    "id": "s14_recommendation",
+    "start": 46,
+    "duration": 4,
+    "text": "Below, we have the detailed recommendation with the AI's reasoning explaining exactly why CyberShield was selected."
+  },
+  {
+    "id": "s15_tips",
+    "start": 50,
+    "duration": 3,
+    "text": "The platform also generates specific negotiation tips — like asking for volume discounts or timeline guarantees."
+  },
+  {
+    "id": "s16_comparison",
+    "start": 53,
+    "duration": 5,
+    "text": "The comparison tab shows a detailed side-by-side matrix. Green cells highlight the best value for each metric, red cells flag the worst. CyberShield leads on nearly every dimension."
+  },
+  {
+    "id": "s17_chart",
+    "start": 58,
+    "duration": 3,
+    "text": "The bar chart gives a clear visual summary of the overall scores."
+  },
+  {
+    "id": "s18_redflags",
+    "start": 61,
+    "duration": 4,
+    "text": "The red flags tab is critical for contract managers. It shows total flags detected, filtered by severity. SecureNet has significantly more contract risks."
+  },
+  {
+    "id": "s19_flagdetail",
+    "start": 65,
+    "duration": 4,
+    "text": "Click any flag to expand it and see the exact clause text from the proposal. This makes it easy to discuss specific concerns with the vendor."
+  },
+  {
+    "id": "s20_moreflags",
+    "start": 69,
+    "duration": 3,
+    "text": "Multiple red flags are detected — from price escalation clauses to early termination penalties and limited liability caps."
+  },
+  {
+    "id": "s21_chat",
+    "start": 72,
+    "duration": 3,
+    "text": "The AI chat lets you ask natural language questions about the evaluation. Let's ask why CyberShield was recommended."
+  },
+  {
+    "id": "s22_chattyping",
+    "start": 75,
+    "duration": 2,
+    "text": "Typing our question."
+  },
+  {
+    "id": "s23_chatresponse",
+    "start": 77,
+    "duration": 5,
+    "text": "The AI provides a detailed, context-aware answer — comparing both vendors across dimensions and highlighting the key differentiators."
+  },
+  {
+    "id": "s24_report",
+    "start": 82,
+    "duration": 4,
+    "text": "Finally, the export report generates a professional PDF-ready document with executive summary, comparisons, red flags, and negotiation tips — ready to share with stakeholders."
+  },
+  {
+    "id": "s25_reportdetail",
+    "start": 86,
+    "duration": 3,
+    "text": "The report includes all the data your team needs to make a confident, well-informed vendor decision."
+  },
+  {
+    "id": "s26_end",
+    "start": 89,
+    "duration": 2,
+    "text": "That's VendorEval AI. Upload, analyze, and decide — in minutes, not weeks."
+  }
+]
